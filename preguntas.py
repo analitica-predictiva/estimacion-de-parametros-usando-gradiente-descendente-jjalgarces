@@ -35,16 +35,16 @@ def pregunta_01():
 def pregunta_02():
 
     # Importe numpy
-    import ___ as ___
+    import numpy as np
 
     x_poly, y = pregunta_01()
 
     # Fije la tasa de aprendizaje en 0.0001 y el número de iteraciones en 1000
-    learning_rate = ___
-    n_iterations = ___
+    learning_rate = 0.0001
+    n_iterations = 1000
 
     # Defina el parámetro inicial `params` como un arreglo de tamaño 3 con ceros
-    params = np.___(___.shape[1])
+    params = np.zeros(x_poly.shape[1])
     for _ in range(n_iterations):
 
         # Compute el pronóstico con los parámetros actuales
