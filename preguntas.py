@@ -13,13 +13,13 @@ def pregunta_01():
     Complete el código presentado a continuación.
     """
     # Importe pandas
-    import ___ as ___
+    import pandas as pd
 
     # Importe PolynomialFeatures
-    from ___ import ___
+    from sklearn.preprocessing import PolynomialFeatures
 
     # Cargue el dataset `data.csv`
-    data = ___.___("___")
+    data = pd.read_csv("data.csv")
 
     # Cree un objeto de tipo `PolynomialFeatures` con grado `2`
     poly = ___.___(___)
