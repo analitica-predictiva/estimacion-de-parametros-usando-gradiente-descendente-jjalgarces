@@ -9,6 +9,8 @@ polinomial de grado `n`.
 
 #### ESTO ES UNA PRUEBA DE QUE SÍ ME CORRA GIT
 
+### Nueva prueba de que sí me edite
+
 def pregunta_01():
     """
     Complete el código presentado a continuación.
