@@ -7,13 +7,6 @@ polinomial de grado `n`.
 
 """
 
-#### ESTO ES UNA PRUEBA DE QUE SÍ ME CORRA GIT
-
-### Nueva prueba de que sí me edite
-
-##Cambio 3
-
-##cambio 4
 
 def pregunta_01():
     """
